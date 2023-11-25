@@ -4,11 +4,11 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/RohithER12/order-svc/pkg/client"
-	"github.com/RohithER12/order-svc/pkg/db"
-	"github.com/RohithER12/order-svc/pkg/models"
-	"github.com/RohithER12/order-svc/pkg/pb"
-	orderinterface "github.com/RohithER12/order-svc/pkg/repo/orderInterface"
+	"github.com/RohithER12/machine_test_ecom/order-svc/pkg/client"
+	"github.com/RohithER12/machine_test_ecom/order-svc/pkg/db"
+	"github.com/RohithER12/machine_test_ecom/order-svc/pkg/models"
+	"github.com/RohithER12/machine_test_ecom/order-svc/pkg/pb"
+	orderinterface "github.com/RohithER12/machine_test_ecom/order-svc/pkg/repo/orderInterface"
 )
 
 type Server struct {

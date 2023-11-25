@@ -1,8 +1,8 @@
 package repo
 
 import (
-	"github.com/RohithER12/product-svc/pkg/models"
-	repoimpl "github.com/RohithER12/product-svc/pkg/repo/repoImpl"
+	"github.com/RohithER12/machine_test_ecom/product-svc/pkg/models"
+	repoimpl "github.com/RohithER12/machine_test_ecom/product-svc/pkg/repo/repoImpl"
 )
 
 type Product interface {

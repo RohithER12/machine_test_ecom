@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/RohithER12/order-svc/pkg/pb"
+	"github.com/RohithER12/machine_test_ecom/order-svc/pkg/pb"
 	"google.golang.org/grpc"
 )
 

@@ -3,8 +3,8 @@ package auth
 import (
 	"fmt"
 
-	"github.com/RohithER12/api-gateway/pkg/auth/pb"
-	"github.com/RohithER12/api-gateway/pkg/config"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/auth/pb"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/config"
 	"google.golang.org/grpc"
 )
 

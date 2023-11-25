@@ -1,8 +1,8 @@
 package repo
 
 import (
-	"github.com/RohithER12/order-svc/pkg/db"
-	"github.com/RohithER12/order-svc/pkg/models"
+	"github.com/RohithER12/machine_test_ecom/order-svc/pkg/db"
+	"github.com/RohithER12/machine_test_ecom/order-svc/pkg/models"
 )
 
 type OrderRepo struct {

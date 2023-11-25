@@ -3,11 +3,10 @@ package main
 import (
 	"log"
 
-	"github.com/RohithER12/api-gateway/pkg/auth"
-	"github.com/RohithER12/api-gateway/pkg/cart"
-	"github.com/RohithER12/api-gateway/pkg/config"
-	"github.com/RohithER12/api-gateway/pkg/order"
-	"github.com/RohithER12/api-gateway/pkg/product"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/auth"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/config"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/order"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/product"
 	"github.com/gin-gonic/gin"
 )
 
@@ -23,7 +22,6 @@ func main() {
 	authSvc := *auth.RegisterRoutes(r, &c)
 	product.RegisterRoutes(r, &c, &authSvc)
 	order.RegisterRoutes(r, &c, &authSvc)
-	cart.RegisterRoutes(r, &c, &authSvc)
 
 	r.Run(c.Port)
 }

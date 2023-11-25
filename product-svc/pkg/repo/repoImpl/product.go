@@ -3,8 +3,8 @@ package repoimpl
 import (
 	"fmt"
 
-	"github.com/RohithER12/product-svc/pkg/db"
-	"github.com/RohithER12/product-svc/pkg/models"
+	"github.com/RohithER12/machine_test_ecom/product-svc/pkg/db"
+	"github.com/RohithER12/machine_test_ecom/product-svc/pkg/models"
 )
 
 type ProductImpl struct {

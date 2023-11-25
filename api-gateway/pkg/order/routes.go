@@ -1,9 +1,9 @@
 package order
 
 import (
-	"github.com/RohithER12/api-gateway/pkg/auth"
-	"github.com/RohithER12/api-gateway/pkg/config"
-	"github.com/RohithER12/api-gateway/pkg/order/routes"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/auth"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/config"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/order/routes"
 	"github.com/gin-gonic/gin"
 )
 

@@ -1,8 +1,8 @@
 package auth
 
 import (
-	"github.com/RohithER12/api-gateway/pkg/auth/routes"
-	"github.com/RohithER12/api-gateway/pkg/config"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/auth/routes"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/config"
 	"github.com/gin-gonic/gin"
 )
 

@@ -3,8 +3,8 @@ package product
 import (
 	"fmt"
 
-	"github.com/RohithER12/api-gateway/pkg/config"
-	"github.com/RohithER12/api-gateway/pkg/product/pb"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/config"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/product/pb"
 	"google.golang.org/grpc"
 )
 

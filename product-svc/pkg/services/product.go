@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/RohithER12/product-svc/pkg/db"
-	"github.com/RohithER12/product-svc/pkg/models"
-	pb "github.com/RohithER12/product-svc/pkg/pb"
-	"github.com/RohithER12/product-svc/pkg/repo"
+	"github.com/RohithER12/machine_test_ecom/product-svc/pkg/db"
+	"github.com/RohithER12/machine_test_ecom/product-svc/pkg/models"
+	"github.com/RohithER12/machine_test_ecom/product-svc/pkg/pb"
+	"github.com/RohithER12/machine_test_ecom/product-svc/pkg/repo"
 )
 
 type Server struct {

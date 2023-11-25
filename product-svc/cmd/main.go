@@ -5,12 +5,12 @@ import (
 	"log"
 	"net"
 
-	"github.com/RohithER12/product-svc/pkg/config"
-	"github.com/RohithER12/product-svc/pkg/db"
-	pb "github.com/RohithER12/product-svc/pkg/pb"
-	"github.com/RohithER12/product-svc/pkg/repo"
-	repoimpl "github.com/RohithER12/product-svc/pkg/repo/repoImpl"
-	services "github.com/RohithER12/product-svc/pkg/services"
+	"github.com/RohithER12/machine_test_ecom/product-svc/pkg/config"
+	"github.com/RohithER12/machine_test_ecom/product-svc/pkg/db"
+	"github.com/RohithER12/machine_test_ecom/product-svc/pkg/pb"
+	"github.com/RohithER12/machine_test_ecom/product-svc/pkg/repo"
+	repoimpl "github.com/RohithER12/machine_test_ecom/product-svc/pkg/repo/repoImpl"
+	"github.com/RohithER12/machine_test_ecom/product-svc/pkg/services"
 	"github.com/google/wire"
 	"google.golang.org/grpc"
 )

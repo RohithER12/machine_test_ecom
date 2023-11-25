@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/RohithER12/api-gateway/pkg/order/pb"
+	"github.com/RohithER12/machine_test_ecom/api-gateway/pkg/order/pb"
 	"github.com/gin-gonic/gin"
 )
 
