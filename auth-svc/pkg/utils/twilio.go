@@ -3,7 +3,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/RohithER12/auth-svc/pkg/config"
+	"github.com/RohithER12/machine_test_ecom/auth-svc/pkg/config"
 	"github.com/twilio/twilio-go"
 	openapi "github.com/twilio/twilio-go/rest/verify/v2"
 )

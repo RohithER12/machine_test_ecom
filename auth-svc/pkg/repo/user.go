@@ -1,8 +1,8 @@
 package repo
 
 import (
-	"github.com/RohithER12/auth-svc/pkg/db"
-	"github.com/RohithER12/auth-svc/pkg/models"
+	"github.com/RohithER12/machine_test_ecom/auth-svc/pkg/db"
+	"github.com/RohithER12/machine_test_ecom/auth-svc/pkg/models"
 	"gorm.io/gorm"
 )
 

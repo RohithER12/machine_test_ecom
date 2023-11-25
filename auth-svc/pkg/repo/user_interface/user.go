@@ -1,8 +1,8 @@
 package user_interface
 
 import (
-	"github.com/RohithER12/auth-svc/pkg/models"
-	"github.com/RohithER12/auth-svc/pkg/repo"
+	"github.com/RohithER12/machine_test_ecom/auth-svc/pkg/models"
+	"github.com/RohithER12/machine_test_ecom/auth-svc/pkg/repo"
 )
 
 type User interface {

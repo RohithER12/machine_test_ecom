@@ -4,11 +4,11 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/RohithER12/auth-svc/pkg/db"
-	"github.com/RohithER12/auth-svc/pkg/models"
-	"github.com/RohithER12/auth-svc/pkg/pb"
-	"github.com/RohithER12/auth-svc/pkg/repo/user_interface"
-	"github.com/RohithER12/auth-svc/pkg/utils"
+	"github.com/RohithER12/machine_test_ecom/auth-svc/pkg/db"
+	"github.com/RohithER12/machine_test_ecom/auth-svc/pkg/models"
+	"github.com/RohithER12/machine_test_ecom/auth-svc/pkg/pb"
+	"github.com/RohithER12/machine_test_ecom/auth-svc/pkg/repo/user_interface"
+	"github.com/RohithER12/machine_test_ecom/auth-svc/pkg/utils"
 )
 
 type Server struct {

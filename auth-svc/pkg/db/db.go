@@ -3,7 +3,7 @@ package db
 import (
 	"log"
 
-	"github.com/RohithER12/auth-svc/pkg/models"
+	"github.com/RohithER12/machine_test_ecom/auth-svc/pkg/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
