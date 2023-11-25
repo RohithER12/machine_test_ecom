@@ -1,1 +1,3 @@
+# Ignore .env files inside ./pkg/config/envs/
+./pkg/config/envs/api.env
 .env
